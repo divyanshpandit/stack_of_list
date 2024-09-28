@@ -18,10 +18,10 @@ class stack:
 
   def pop(self):
     if not self.is_empty():
-      self.mylist.pop()
+      return self.mylist.pop()
 
     else:
-      return IndexError("No value available to dlt")
+      raise IndexError("No value available to dlt")
   def peek(self):
     return self.mylist[-1]
   def countx(self):
