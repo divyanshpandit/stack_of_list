@@ -1,1 +1,1 @@
-# stack_of_list
+This project implements a basic Stack data structure in Python using a list. A stack is a linear data structure that follows the Last In, First Out (LIFO) principle, meaning the last element added to the stack will be the first one removed.
